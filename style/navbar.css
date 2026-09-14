@@ -1,0 +1,120 @@
+/* ============================================
+   NAVBAR - Tampilan modern (selaras home/admin)
+   ============================================ */
+
+.navbar-modern {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 40%, #4c1d95 100%) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+    padding: 0.5rem 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.navbar-modern .container-fluid {
+    max-width: 1140px;
+}
+
+.navbar-modern .navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0;
+    transition: opacity 0.2s ease;
+}
+
+.navbar-modern .navbar-brand:hover {
+    color: #e0e7ff !important;
+    opacity: 0.95;
+}
+
+.navbar-modern .navbar-brand i {
+    font-size: 1.5rem;
+    opacity: 0.95;
+}
+
+.navbar-modern .navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.4rem 0.6rem;
+    border-radius: 10px;
+}
+
+.navbar-modern .navbar-toggler:focus {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
+}
+
+.navbar-modern .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-modern .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem !important;
+    border-radius: 10px;
+    margin: 0 0.15rem;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+
+.navbar-modern .nav-link:hover,
+.navbar-modern .nav-link:focus {
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.navbar-modern .nav-link.active {
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.navbar-modern .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-modern .dropdown-toggle::after {
+    margin-left: 0.35rem;
+}
+
+.navbar-modern .dropdown-toggle img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-modern .dropdown-menu {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.navbar-modern .dropdown-item {
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: #1e293b;
+    transition: background 0.15s ease;
+}
+
+.navbar-modern .dropdown-item:hover {
+    background: #f0f4f8;
+    color: #4f46e5;
+}
+
+.navbar-modern .dropdown-item i {
+    width: 1.25rem;
+    margin-right: 0.5rem;
+    opacity: 0.7;
+}
+
+.navbar-modern .dropdown-divider {
+    margin: 0.4rem 0;
+    border-color: #e2e8f0;
+}
